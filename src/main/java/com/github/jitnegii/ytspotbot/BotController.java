@@ -33,13 +33,13 @@ public class BotController extends MyTelegramLongPollingBot {
     private String botName;
 
     @Override
-    public String getBotUsername() {
+    public String getBotUsername(@KHDAM_ADNANE_BOT) {
 
         return botName;
     }
 
     @Override
-    public String getBotToken() {
+    public String getBotToken(2072330810:AAE7AlsaMvYm0HdVHY0iIekhipCTpifDU_8) {
         return botToken;
     }
 
